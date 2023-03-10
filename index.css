@@ -1,0 +1,91 @@
+@font-face {
+    src: url("fonts/CursedTimerULiL.ttf");
+    font-family: CursedTimerULiL;
+}
+
+body {
+    margin: 0;
+    font-family: CursedTimerULiL;
+}
+
+.container {
+    background-color: #92400E;
+    padding: 50px 50px 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.score-flex {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.score-card {
+    text-align: center;
+}
+
+.base-style {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4f4f4;
+    margin: 0;
+    text-shadow: 0px 0px 3px #1e1e1e;
+}
+
+.score {
+    display: flex;
+    background-color: #0e0e0e;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    padding: 20px 0 10px;
+    margin: 22px;
+    border-radius: 5px;
+}
+
+.score > p{
+    font-size: 90px;
+    margin: 0;
+    padding: 0;
+    color: #F94F6D;
+}
+
+.score-btn {
+    width: 155px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn {
+    font-family: inherit;
+    padding: 10px 10px 5px;
+    background-color: transparent;
+    border: 2px solid #111827;
+    color: #111827;
+    border-radius: 5px;
+}
+
+.reset-btn {
+    display: block;
+    margin: 30px auto 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #111827;
+    color: #111827;
+    border-radius: 5px;
+}
+
+.reset-btn:hover, .btn:hover {
+    color: #f4f4f4;
+    border-color: #f4f4f4;
+    cursor: pointer;
+}
+
+
+.leading {
+    color: green;
+}
