@@ -1,2 +1,2 @@
 # score-tracker
- A basketball score board 
+ A basketball score board tracker
